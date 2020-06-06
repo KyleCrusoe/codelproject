@@ -1,0 +1,36 @@
+
+body {
+    background-color: #030303;
+}
+
+.center{
+    text-align: center;
+    padding-top: 5em;
+}
+
+.nav {
+    width: 92em;
+    height: 48em;
+    position: relative;
+ 
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.bodyinfo {
+    color: white;
+}
+
+.quarter1{
+    height: 48em;
+    width: 23em;
+    float: left;
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}

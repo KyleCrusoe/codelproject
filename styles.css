@@ -7,67 +7,31 @@ body {
     width: 100%;
 }
 
-footer{
-    
-    width: 100vw;
-    height: 10vh;
-    
-}
 .center{
     text-align: center;
     padding-top: 5em;
     background-color: rgb(249, 184, 184);
 }
 
-.nav {
-    width: 92vw;
-    height: 92vh;   
-    max-height: 50%;
-    display: flex;
-    background-color: rgb(255, 222, 222);
-    margin-left: 2vw;
-    margin-right: 2vw;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;  
- 
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 30vw;
 }
 
-
-
-.quarter1{
-
-   
-    height: 50%;
-    width: 50%;
-    border: 1px solid black;
+.button {
+    background-color: rgb(65, 30, 30); /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: auto;
+  }
   
 
-}
 
-.quarter2{
-
-    width: 50%;
-    height: 50%;
-    border: 1px solid black;
- 
-}
-
-.quarter3{
-
-    width: 50%;
-    height: 50%;
-    border: 1px solid black;
-  
-}
-
-.quarter4{
-
-    width: 50%;
-    border: 1px solid black;
-    height: 50%;
-  
-}
 
 /* Form Styles */
 

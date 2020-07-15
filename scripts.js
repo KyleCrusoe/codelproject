@@ -7,5 +7,4 @@ function openCity(cityName) {
     document.getElementById(cityName).style.display = "block";
   }
 
-  // Tab menu function
-//-->
+  // Tab menu function//-->

@@ -1,4 +1,4 @@
-
+/* Main Styles */
 body {
     background-color: rgb(249, 184, 184);
     display: flex;
@@ -23,7 +23,6 @@ body {
     width: 100vw;
     height: 30vw;
     border: solid 1px rgb(249, 184, 184);
-    padding-top: 5em;
     text-align: center;
 }
 .navitem {
@@ -53,6 +52,23 @@ body {
     margin-left: 9%;
     margin-right: 9%;
     padding-bottom: 1%;
+}
+
+.bodyimage{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.stickyfooter{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-bottom: 3px; /* Why did setting a bottom padding fix the issue with footer scrolling? */
+
 }
 
 
@@ -86,6 +102,8 @@ textarea{
  
 
 }
+
+
 
 
 
